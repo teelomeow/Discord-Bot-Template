@@ -1,0 +1,26 @@
+{
+  "name": "Discord Bot Template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon",
+    "start": "ts-node src/app.ts -T"
+  },
+  "keywords": [],
+  "author": "Teelo",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.9",
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "glob": "^8.0.3",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.3"
+  }
+}

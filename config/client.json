@@ -1,0 +1,22 @@
+{
+  "intents": [
+    "Guilds",
+    "GuildMessages",
+    "GuildMessageReactions",
+    "DirectMessages",
+    "DirectMessageReactions"
+  ],
+
+  "partials": ["Channel", "Message", "User", "GuildMember", "Reaction"],
+
+  "presence": {
+    "status": "dnd",
+    "activities": [
+      {
+        "name": "<3",
+        "type": 1,
+        "url": "https://twitch.tv/pokkanpip"
+      }
+    ]
+  }
+}
