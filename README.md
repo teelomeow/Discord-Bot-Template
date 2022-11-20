@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Discord Bot Template" src="https://i.imgur.com/b5os47U.png" width="450px">
+  <img alt="Discord Bot Template" src="https://i.imgur.com/b5os47U.png" width="250px">
 </p>
 
 
