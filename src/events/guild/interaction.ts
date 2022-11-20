@@ -1,4 +1,5 @@
 import CustomClient from "../../extensions/custom-client";
+import * as Logger from "../../utils/logger";
 
 module.exports = {
   name: "interaction",
@@ -12,6 +13,10 @@ client.on("interactionCreate", async (interaction) => {
 
     if (!command) return;
 
-    command.run(client, interaction);
+    try {
+      command.run(client, interaction);
+    } catch (err: any) {
+      Logger.error(err);
+    }
   }
 });
