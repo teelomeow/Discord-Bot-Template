@@ -3,6 +3,6 @@
 </p>
 
 
-# Requirements
+# Requirements for the active developer badge
 - Discord Bot (https://discord.com/developers/applications)
 - Discord server that you own
